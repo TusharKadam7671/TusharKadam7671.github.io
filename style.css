@@ -7,6 +7,7 @@
   box-sizing: border-box;
   text-decoration: none;
 }
+
 html {
   scroll-behavior: smooth;
 }
@@ -20,6 +21,12 @@ section {
   max-width: 1300px;
   padding: 0 80px;
   margin: auto;
+
+}
+.contact-center{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 .about,
 .services,
@@ -62,7 +69,7 @@ section .title::after {
   bottom: -8px;
   left: 50%;
   font-size: 20px;
-  color: #ffcc00;
+  color: #a32626;
   padding: 0 5px;
   background: #fff;
   transform: translateX(-50%);
@@ -80,7 +87,7 @@ section .title::after {
 }
 .navbar.sticky {
   padding: 15px 0;
-  background: #ffcc00;
+  background: #a32626;
 }
 .navbar .max-width {
   display: flex;
@@ -88,12 +95,13 @@ section .title::after {
   justify-content: space-between;
 }
 .navbar .logo a {
-  color: #fff;
+  color: rgb(255, 255, 255);
   font-size: 35px;
   font-weight: 600;
 }
 .navbar .logo a span {
-  color: #ffcc00;
+  /* color: #fdc87e; */
+  color: #a32626;
   transition: all 0.3s ease;
 }
 .navbar.sticky .logo a span {
@@ -112,7 +120,7 @@ section .title::after {
   transition: color 0.3s ease;
 }
 .navbar .menu li a:hover {
-  color: #ffcc00;
+  color: #a32626;
 }
 .navbar.sticky .menu li a:hover {
   color: #fff;
@@ -162,39 +170,34 @@ section .title::after {
   margin: 5px 0;
 }
 .home .home-content .text-3 span {
-  color: #ffcc00;
+  color: #a32626;
   font-weight: 500;
 }
 .home .home-content a {
   display: inline-block;
-  background: #ffcc00;
+  /* background: #ffcc00; */
+  background: #a32626;
   color: #fff;
   font-size: 25px;
   padding: 12px 36px;
   margin-top: 20px;
   font-weight: 400;
   border-radius: 6px;
-  border: 2px solid #ffcc00;
+  border: 2px solid #a32626;
   transition: all 0.3s ease;
 }
 .home .home-content a:hover {
-  color: #ffcc00;
+  color: #a32626;
   background: none;
 }
 
 /* about section styling */
 .about{
-
- 
- /* background-image: url("https://images.unsplash.com/photo-1523878288860-7ad281611901?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80"); */
  background-image: url("./images/texture.jpg");
  background-size: cover;
   background-attachment: fixed;
 }
-/* .about .title::after {
-  content: "who i am";
- 
-} */
+
 .about .about-content .left {
   width: 45%;
 }
@@ -221,18 +224,18 @@ section .title::after {
 }
 .about .about-content .right a {
   display: inline-block;
-  background: #ffcc00;
+  background: #a32626;
   color: #fff;
   font-size: 20px;
   font-weight: 500;
   padding: 10px 30px;
   margin-top: 20px;
   border-radius: 6px;
-  border: 2px solid #ffcc00;
+  border: 2px solid ;
   transition: all 0.3s ease;
 }
 .about .about-content .right a:hover {
-  color: #ffcc00;
+  color: #a32626;
   background: none;
 }
 .about .title::after {
@@ -245,20 +248,13 @@ section .title::after {
 /* skills section styling */
 
 .skills-images img {
-  /* height: 150px;
-  width: 150px; */
   height: 100px;
   width: 100px;
   /* object-fit: cover; */
   border-radius: 5%;
-  /* border: 5px solid crimson; */
- 
- 
   transition: all 0.3s ease;
 }
-/* .skills .title::after {
-  content: "what i know";
-} */
+
 
 /* skills right column */
 .column.right .skills-images, .column.left .skills-images{
@@ -284,18 +280,18 @@ section .title::after {
 }
 .skills .skills-content .left a {
   display: inline-block;
-  background: #ffcc00;
+  background: #a32626;
   color: #fff;
   font-size: 18px;
   font-weight: 500;
   padding: 8px 16px;
   margin-top: 20px;
   border-radius: 6px;
-  border: 2px solid #ffcc00;
+  border: 2px solid #a32626;
   transition: all 0.3s ease;
 }
 .skills .skills-content .left a:hover {
-  color: #ffcc00;
+  color: #a32626;
   background: none;
 }
 .skills .skills-content .right .bars {
@@ -323,28 +319,11 @@ section .title::after {
   height: 100%;
   left: 0;
   top: 0;
-  background: #ffcc00;
-}
-.skills-content .right .html::before {
-  width: 90%;
-}
-.skills-content .right .css::before {
-  width: 60%;
-}
-.skills-content .right .js::before {
-  width: 80%;
-}
-.skills-content .right .php::before {
-  width: 50%;
-}
-.skills-content .right .mysql::before {
-  width: 70%;
+  background: #a32626;
 }
 
 /* project section styling */
-/* .project .title::after {
-  content: "see my work";
-} */
+
 /* .carousel.owl-carousel{
     display: flex;
     gap: 10px;
@@ -358,7 +337,7 @@ section .title::after {
   transition: all 0.3s ease;
 }
 .project .carousel .card:hover {
-  background: #ffcc00;
+  background: #a32626;
   color: #000;
   /* change */
 }
@@ -403,7 +382,7 @@ section .title::after {
   align-items: center;
 }
 .techStack {
-  /* background-color: purple; */
+  /* color: #69f542 !important; */
 }
 
 .demo-div a,
@@ -420,7 +399,7 @@ section .title::after {
   width: 250px;
   object-fit: cover;
   border-radius: 5%;
-  border: 5px solid #ffcc00;
+  border: 5px solid #a32626;
   transition: all 0.3s ease;
 }
 .project .carousel .card:hover img {
@@ -437,7 +416,7 @@ section .title::after {
   margin: 0 5px;
   outline: none !important;
   border-radius: 50%;
-  border: 2px solid #ffcc00 !important;
+  border: 2px solid #a32626 !important;
   transition: all 0.3s ease;
 }
 .owl-dot.active {
@@ -446,7 +425,7 @@ section .title::after {
 }
 .owl-dot.active,
 .owl-dot:hover {
-  background: #ffcc00 !important;
+  background: #a32626 !important;
 }
 .skills-images {
   width: 120px;
@@ -454,9 +433,14 @@ section .title::after {
 }
 
 /* contact section styling */
-/* .contact .title::after {
-  content: "get in touch";
-} */
+
+.contact .contact-content
+{
+ margin: auto;
+ border: 1px solid #a32626;
+ padding: 25px;
+}
+
 .contact .contact-content .column {
   /* width: calc(50% - 30px); */
   width: calc(100% - 30px);
@@ -484,7 +468,7 @@ text-align: center;
 }
 .contact .contact-content .row i {
   font-size: 25px;
-  color: #ffcc00;
+  color: #a32626;
 }
 .contact .contact-content .info .head {
   font-weight: 500;
@@ -500,65 +484,11 @@ text-align: center;
 .contact .contact-content .info .sub-title {
   color: #333;
 }
-.contact .right form .fields {
-  display: flex;
-}
-.contact .right form .field,
-.contact .right form .fields .field {
-  height: 45px;
-  width: 100%;
-  margin-bottom: 15px;
-}
-.contact .right form .textarea {
-  height: 80px;
-  width: 100%;
-}
-.contact .right form .name {
-  margin-right: 10px;
-}
-.contact .right form .field input,
-.contact .right form .textarea textarea {
-  height: 100%;
-  width: 100%;
-  border: 1px solid lightgrey;
-  border-radius: 6px;
-  outline: none;
-  padding: 0 15px;
-  font-size: 17px;
-  font-family: "Poppins", sans-serif;
-  transition: all 0.3s ease;
-}
-.contact .right form .field input:focus,
-.contact .right form .textarea textarea:focus {
-  border-color: #b3b3b3;
-}
-.contact .right form .textarea textarea {
-  padding-top: 10px;
-  resize: none;
-}
-.contact .right form .button-area {
-  display: flex;
-  align-items: center;
-}
-.right form .button-area button {
-  color: #fff;
-  display: block;
-  width: 160px !important;
-  height: 45px;
-  outline: none;
-  font-size: 18px;
-  font-weight: 500;
-  border-radius: 6px;
-  cursor: pointer;
-  flex-wrap: nowrap;
-  background: #ffcc00;
-  border: 2px solid #ffcc00;
-  transition: all 0.3s ease;
-}
-.right form .button-area button:hover {
-  color: #ffcc00;
-  background: none;
-}
+
+
+
+
+
 /* footer section styling */
 footer {
   background: #111;
@@ -567,7 +497,7 @@ footer {
   text-align: center;
 }
 footer span a {
-  color: #ffcc00;
+  color: #a32626;
   text-decoration: none;
 }
 footer span a:hover {
@@ -600,6 +530,7 @@ footer span a:hover {
     height: 100vh;
     width: 100%;
     left: -100%;
+    /* left: 100%; */
     top: 0;
     background: #111;
     text-align: center;
@@ -629,6 +560,7 @@ footer span a:hover {
   }
   .max-width {
     max-width: 930px;
+    margin: auto;
   }
   .about .about-content .column {
     width: 100%;
@@ -662,9 +594,7 @@ footer span a:hover {
   .home .home-content a {
     font-size: 20px;
   }
-  .services .serv-content .card {
-    width: 100%;
-  }
+  
 }
 
 @media (max-width: 500px) {
