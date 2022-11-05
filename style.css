@@ -735,6 +735,12 @@ footer span a:hover {
 }
 
 @media (max-width: 991px) {
+
+  .about .about-content .left img {
+    height: 90%;
+    width: 90%;
+  }
+
   .max-width {
     padding: 0 50px;
   }
@@ -746,6 +752,11 @@ footer span a:hover {
   }
 }
 @media (max-width: 947px) {
+
+  .about .about-content .left img {
+    height: 90%;
+    width: 90%;
+  }
   .menu-btn {
     display: block;
     z-index: 999;
@@ -818,6 +829,12 @@ footer span a:hover {
 }
 
 @media (max-width: 690px) {
+
+  .about .about-content .left img {
+    height: 90%;
+    width: 90%;
+  }
+
   .max-width {
     padding: 0 23px;
   }
@@ -843,6 +860,12 @@ footer span a:hover {
 }
 
 @media (max-width: 500px) {
+
+  .about .about-content .left img {
+    height: 90%;
+    width: 90%;
+  }
+
   .home .home-content .text-2 {
     font-size: 50px;
   }
@@ -918,7 +941,7 @@ rect.ContributionCalendar-day[data-level='4'] {
     font-family: Helvetica, arial;
     border: 3px solid #a32626;
     border-radius: 3px;
-    min-height: 243px;
+    /* min-height: 243px; */
     text-align: center;
     margin: 0 auto;
     background-color: black;
@@ -1081,8 +1104,117 @@ text.ContributionCalendar-label {
     font-size: 11px;
 }
 
+.contrib-column{
+  display: none;
+}
+
 .stats{
   display: flex;
   justify-content: center;
   padding-top: 10px;
 }
+
+/*  */
+
+/* github */
+
+
+#github-stats {
+  padding: 100px 10px;
+}
+
+.github-stats-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  margin-top: 50px;
+  grid-gap: 40px;
+}
+
+
+.github-stat {
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+
+.github-stat img {
+  width: 100%;
+  border-radius: 10px;
+  display: block;
+  /* transition: transform 0.5s; */
+  padding: 10px 30px;
+}
+
+.layer h3 {
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.container{
+text-align: center;
+}
+
+/* .github-st .title::after {
+content: "see my work";
+}
+.github-stat:hover img {
+  transform: scale(1.1);
+} */
+
+@media (max-width: 690px) {
+
+.github-stat {
+  width: 300px;
+  font-size: 8px;
+}
+
+.github-stat {
+width: 100%;
+font-size: 8px;
+}
+.container{
+text-align: center;
+}
+
+.cont-box-1>img{
+width: 45px;
+height: 45px;
+}
+
+.github-stat>img{
+margin: 0 auto;
+width: 100%;
+margin-top: 20px;
+}
+
+
+.github-stats-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+  margin-top: 50px;
+  grid-gap: 40px;
+}
+}
+
+@media (max-width: 500px) {
+.github-stat {
+  width: 100%;
+  font-size: 8px;
+}
+
+.github-stat>img{
+  margin: 0 auto;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.github-stats-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+  margin-top: 50px;
+  grid-gap: 40px;
+}
+}
+
+/* github */
