@@ -990,7 +990,7 @@ rect.ContributionCalendar-day[data-level='4'] {
     line-height: 1.3em;
     font-size: 24px;
     display: block;
-    color: red;
+    color: rgb(140, 251, 96);
 }
 
 .calendar img.spinner {
