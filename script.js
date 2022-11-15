@@ -69,7 +69,7 @@ function git3(){
 }
 
 function deploy3(){
-  window.location.href = "https://dermstore-project-clone.netlify.app/"
+  window.location.href = "https://weatherapp-tusharkadam7671.netlify.app/"
 }
 
 function git4(){
