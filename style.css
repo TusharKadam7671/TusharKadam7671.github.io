@@ -1041,7 +1041,7 @@ footer span a{
   
   .github-stat {
     border-radius: 10px;
-    position: relative;
+    /* position: relative; */
     overflow: hidden;
     cursor: pointer;
   }
