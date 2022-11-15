@@ -53,7 +53,7 @@ function git1(){
 }
 
 function deploy1(){
-  window.location.href = "https://github.com/TusharKadam7671/industrious-summer-462"
+  window.location.href = "https://drive.google.com/file/d/1za7db1_1iX3Jmsan56yair4P_AbtkEYp/view"
 }
 
 function git2(){
