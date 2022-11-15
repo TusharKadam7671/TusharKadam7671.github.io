@@ -64,6 +64,22 @@ function deploy2(){
   window.location.href = "https://dermstore-project-clone.netlify.app/"
 }
 
+function git3(){
+  window.location.href = "https://github.com/TusharKadam7671/Weather-App"
+}
+
+function deploy3(){
+  window.location.href = "https://dermstore-project-clone.netlify.app/"
+}
+
+function git4(){
+  window.location.href = "https://github.com/abhijitnr/SSENCE-clone-Website"
+}
+
+function deploy4(){
+  window.location.href = "https://ssense-project-clone.netlify.app/"
+}
+
 GitHubCalendar(".calendar", "TusharKadam7671");
 // or enable responsive functionality
 GitHubCalendar(".calendar", "TusharKadam7671", { responsive: true });
