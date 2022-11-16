@@ -193,19 +193,22 @@ section {
     font-size: 25px;
     font-weight: 600;
     margin-bottom: 10px;
-    color: rgb(167, 165, 165);
+    /* color: rgb(167, 165, 165); */
+    color: black;
     font-family: 'Poppins', sans-serif;
 
 }
 .about .about-content .right .text span{
     /* color: crimson; */
-    color: aqua;
+    /* color: aqua; */
+    color: rgb(43, 121, 121);
 }
 
 .about .about-content .right p {
     text-align: justify;
     font-size: 20px;
-    color: rgb(167, 165, 165);
+    /* color: rgb(167, 165, 165); */
+    color: rgb(81, 78, 78);
     font-family: 'Poppins', sans-serif;
 
 }
@@ -444,7 +447,9 @@ section {
 }
 
 .contact .contact-content .git .sub-title a {
-    color: rgb(167, 165, 165);
+    /* color: rgb(167, 165, 165); */
+    color: rgb(59, 118, 196);
+    /* color: aqua; */
     
 }
 
@@ -523,8 +528,12 @@ section {
 }
 
 
+    
 
 
+
+
+/* ---scroll up--- */
 .scroll-up, .scroll-up1, .scroll-up2, a{
     color: #fff; 
    
